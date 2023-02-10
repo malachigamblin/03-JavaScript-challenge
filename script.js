@@ -21,4 +21,19 @@ while (!includeLowercase && !includeUppercase && !includeNumbers && !includeSpec
   includeNumbers = confirm("Include numbers?");
   includeSpecial = confirm("Include special characters?");
 }
-})
+
+let password = "";
+  let possibleCharacters = "";
+  if (includeLowercase) {
+    possibleCharacters += "abcdefghijklmnopqrstuvwxyz";
+  }
+  if (includeUppercase) {
+    possibleCharacters += "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  }
+  if (includeNumbers) {
+    possibleCharacters += "0123456789";
+  }
+  if (includeSpecial) {
+    possibleCharacters += "!@#$%^&*()_+-=[]{}|;':\",./<>?";
+}})
+ 
