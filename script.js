@@ -35,5 +35,13 @@ let password = "";
   }
   if (includeSpecial) {
     possibleCharacters += "!@#$%^&*()_+-=[]{}|;':\",./<>?";
-}})
+}
+
+for (let i = 0; i < length; i++) {
+  password += possibleCharacters.charAt(Math.floor(Math.random() * possibleCharacters.length));
+}
+
+alert("Generated password: " + password);
+});
+
  
