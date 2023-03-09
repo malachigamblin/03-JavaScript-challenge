@@ -1,19 +1,38 @@
-# Random Password Generator
+# random-password-generator-challenge
 
 ## Description
-This code is to be used whenenver a new password is needed to be created at random that is secure
-When the button is clicked to generate a passwors
-There are a series of prompts for password criteria
-The user will be prompted to enter a password that is between 8-128 characters
-The user will confirm if the password will include lowercase, uppercase, numeric, and/or special characters
-At least one character type needs to be included 
-When all prompts are answered
-The random password will be displayed
 
-<img width="1334" alt="Screenshot 2023-02-12 at 3 51 39 PM" src="https://user-images.githubusercontent.com/118701306/218336463-b615d876-a06d-4085-b4f2-c3fb291037cd.png">
-<img width="1334" alt="Screenshot 2023-02-12 at 3 51 31 PM" src="https://user-images.githubusercontent.com/118701306/218336490-9db26ef3-247d-4d4c-9cf7-eca4b121d8e8.png">
-<img width="1334" alt="Screenshot 2023-02-12 at 3 51 20 PM" src="https://user-images.githubusercontent.com/118701306/218336515-251f7d8d-11f7-4fc2-b9ba-e8d1db070e32.png">
-<img width="1334" alt="Screenshot 2023-02-12 at 3 51 13 PM" src="https://user-images.githubusercontent.com/118701306/218336534-6ee40e28-5636-4ec7-b7ae-44785b6e3647.png">
-<img width="1334" alt="Screenshot 2023-02-12 at 3 51 07 PM" src="https://user-images.githubusercontent.com/118701306/218336549-d68eb654-9e4e-4d26-8263-5ced11eba36b.png">
+The Ohio State University Coding Boot Camp assigned a homework project to create a random password generator based on criteria that the user has selected. To achieve this, JavaScript was utilized. 
 
-https://malachigamblin.github.io/random-password-generator-challenge/ 
+## Features
+
+• Window alerts are used to prompt for the users input.
+
+• Users have the option of a password with capital letters, lowercase letters, numbers and/or special charachters.
+
+• CSS is utilized for styling.
+
+• The UI is clean and straightforward.
+
+•A random password between 8-128 characters is generated.
+
+## Usage
+
+Once the 'generate password' button is clicked, the user will be asked to pick a length between 8-128 characters for their password. Then, user will be asked if they want their password to include uppercase letters, lowercase letters, numbers, and/or special characters. After all prompts have been answered, the password will be randomly generated and displayed to the user.
+
+## Links
+
+Deployed application: https://malachigamblin.github.io/random-password-generator-challenge/
+
+## Screenshots
+
+The following images show screenshots of the application:
+<img width="1337" alt="Screenshot 2023-03-09 at 1 46 16 PM" src="https://user-images.githubusercontent.com/118701306/224125210-c36e34b9-7b17-46d2-b2cd-b6af487d29ab.png">
+<img width="1337" alt="Screenshot 2023-03-09 at 1 46 19 PM" src="https://user-images.githubusercontent.com/118701306/224125381-4dd82b09-eb55-47e4-bbf4-44ae2b596ca8.png">
+<img width="1337" alt="Screenshot 2023-03-09 at 1 46 25 PM" src="https://user-images.githubusercontent.com/118701306/224125463-ccfb171e-e291-45e0-994e-9aaa01881ed5.png">
+<img width="1337" alt="Screenshot 2023-03-09 at 1 46 28 PM" src="https://user-images.githubusercontent.com/118701306/224125543-28969572-6af2-41c8-9b81-ced0b4232ad1.png">
+<img width="1337" alt="Screenshot 2023-03-09 at 1 46 33 PM" src="https://user-images.githubusercontent.com/118701306/224125632-21425102-d2ac-402e-808f-7aa899c487f6.png">
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
