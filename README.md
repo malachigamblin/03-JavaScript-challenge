@@ -1,4 +1,4 @@
-# random-password-generator-challenge
+# Random-Password-Generator-Challenge
 
 ## Description
 
